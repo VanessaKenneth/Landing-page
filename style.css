@@ -1,6 +1,6 @@
 body{
-  font-family: 'Roboto', sans-serif;
-  background-color: aqua;
+  font-family: 'Roboto', arial, sans-serif;
+  background-color: navy;
 }
 .nav{
   background-color: black;
@@ -26,9 +26,10 @@ h1{
   color: red;
   text-align: center;
   font-size: 50px;
+  font-family: 'Playfair Display',Georgia, serif;
   }
 #home{
-  background-image: (cuisine 1.jpg);
+  background-image: (Meal.jpg);
 }
 img{
   width: 100%;
@@ -38,6 +39,7 @@ img{
 p {
   color: black;
   font-size: 30px;
+  font-weight: bold;
 }
 h2{color: royalblue;
    text-align: center;
@@ -50,7 +52,7 @@ h2{color: royalblue;
 button{
   background-color: black;
   color: white;
-  padding: 10px 20px;
+  padding: 20px 30px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
@@ -59,7 +61,29 @@ button{
   width: 100px;
   height: 100px;
   border-radius: 50%;
-         
+}
+.container p{
+  text-align: center;
+  font-size: 30px;
+}
+.container{
+  background-color: royalblue;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px;
+  }
+.contact-info li{
+  font-size: 25px;
+  margin-bottom: 10px;
+ 
+ .contact-info h3{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  
+  
+
+
 
   
 }
